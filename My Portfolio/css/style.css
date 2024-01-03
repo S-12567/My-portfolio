@@ -1,0 +1,245 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    /* background-image: url("sum.jpg"); */
+    background-color: rgb(1, 1, 14);
+    color: white;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    /* opacity: 50%; */
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(110, 110, 6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+nav  ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(14, 7, 7);
+    /* font-size: rem; */
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.left
+{
+    color: aqua;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+.left:hover{
+    color: white;
+   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstSection >div{
+    width: 40%;
+    height: 100vh;
+}
+.leftSection{
+    /* background-color: red; */
+    font-size: 2rem;
+    /* margin: 50px 0; */
+    align-items: center;
+
+}
+.leftSection .button{
+    padding: 20px;
+   
+}
+.leftSection .btn{
+   padding: 2px;
+   background-color: rgb(197, 176, 197);
+   /* color: rgb(247, 247, 247); */
+   /* border: 2px solid rgb(15, 1, 1); */
+   /* border-radius: 3px solid black; */
+   font-size: 20px;
+   cursor: pointer;
+   /* box-shadow: 1px 1px 3px gray; */
+   transition-property: all;
+    transition-duration: 1.5s;
+
+    
+   
+}
+.leftSection.btn:hover{
+    /* color: rgb(15, 1, 8);
+    font-size: 1.02rem; */
+    /* transition: 0.5s; */
+    transform:scale(1.2)
+}
+.rightSection img{
+    width: 80%;
+}
+.leftSection img{
+    width:40px;
+    height: 40px;
+    display:inline-block;
+    justify-self: space-around;
+
+}
+.purple{
+    color:rgb(11, 2, 19) solid;
+    
+}
+#element{
+    color:rgb(10, 2, 17) solid;
+   
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.secondsection h1:hover{
+    color: rgb(224, 172, 94);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.about{
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+.about:hover{
+    transform: scale(1.2);
+}
+.secondsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 20px 0;
+}
+.secondsection .box h7{
+    /* margin-top: 100px; */
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 80%;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-style: unset;
+
+}
+footer{
+    background-color: rgb(115, 117, 126);
+    height: 160px;
+    /* display: flex; */
+    /* position:buttom; */
+}
+.footer{
+    /* list-style: none; */
+    display:flex;
+    padding:23px 110px ;
+    justify-content: space-evenly;
+} 
+.footer ul{
+    list-style: none;
+    color: black;
+} 
+.footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+.footer >div{
+    width:100px ;
+    color: black;
+}
+footer .footer-rights{
+text-align: center;
+color: rgb(223, 220, 220);
+padding: 12px 0;
+}
+#purple:hover{
+color: rgb(153, 141, 165);
+transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.leftSection img{
+    width:40px;
+    height: 40px;
+    display:inline-block;
+    justify-self: space-around;
+
+}
+/* .second-footer{
+    list-style: none;
+} */
+.logo-container{
+/* border: 2px solid black; */
+/* position: relative; */
+top: 5px;
+width: 150px;
+display: flex;
+justify-content: space-evenly;
+}
+.linkedin img{
+    transition-property: all;
+    transition-duration: 1.5s;
+    
+}
+.linkedin img:hover{
+    transform: scale(1.2);
+}
+.git img{
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+.git img:hover{
+    transform: scale(1.2);
+}
+
+/* .magic-button {
+    display: inline-block; */
+    /* padding: 10px 20px;
+    font-size: 16px; */
+    /* text-align: center;
+    text-decoration: none; */
+    /* background-color: #3498db; */
+    /* color: #fff; */
+    /* border: 2px solid #2980b9;
+    border-radius: 5px; */
+    /* transition: background-color 0.3s, color 0.3s;
+} */
+
+/* Add a hover effect to the magic button */
+/* .magic-button:hover {
+    /* background-color: #2980b9; */
+    /* color: #070000;
+}  */
+
+/* .changed-interface {
+    background-color: #2ecc71;
+    color: #fff; */
+
+    /* .magic-button:hover {
+        background-color: #2980b9;
+        color: #fff;
+    }

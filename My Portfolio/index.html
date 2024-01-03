@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <title>Suman-Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#ss">About Us</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <!-- <li><a href="#" class="magic-button">Click me</a></li> -->
+
+                    <!-- <a href="#" class="magic-button" onclick="changeInterface()">Click me</a> -->
+
+                    <!-- <a href="#" class="magic-button" onclick="startColorChange()">Click me</a> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                      Hi, My name is <span id="purple">Suman</span> 
+                      <div>I am a Web Developer.</div>
+                      <span id="element"></span>
+                      <div class="button">
+                        <button class="btn">Download Resume
+                            
+                        </button>
+                         <!-- <div id="imag"><a href="https://github.com/S-12567" target="_blank">
+                            <img src="git.png" alt=""></a> </div> -->
+                             
+                            <div class="logo-container">
+                                <div class="git">
+                                    <a href="https://github.com/S-12567" target="_blank">
+                                    <img src="git.png" alt="GitHub Logo" class="github-logo"></a>
+                                </div>
+                                <div class="linkedin">
+
+                                    <a href="https://www.linkedin.com/in/suman-kumar-775578179/" target="_blank">
+                                        <img src="linkedin-logo.png" alt="LinkedIn">
+                                    </a>
+                                </div>
+                            </div>
+                        
+                           
+                    </div>
+                    </div>
+                <div class="rightSection">
+                    <img src="125.png" alt="">
+                </div>
+        </section>
+         
+        <section class="secondsection"  id="ss"> 
+            <!-- <span class="text-grey">About Me </span> -->
+            <h1 class="about">About Me</h1>
+            <div class="box"><br>
+                <h7>Hi, I'm Suman Kumar, Web Developer and I am fresher in this field now.
+                I am Specialized in  front-end development using HTML CSS JavaScript. <br>
+                Front-End Development: Proficient in HTML, CSS, and JavaScript, I specialize in crafting responsive and intuitive user interfaces.</h7>
+
+            </div>
+                </section>
+     
+    <!-- contact section start -->
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="selection-title">Contact info</h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+91 7488788522</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>suman.k9709@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Dehradun Uttrakhand</h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first-footer">
+                <h3>My Portfolio</h3>
+            </div>
+            <div class="second-footer">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="third -footer">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="fourth-footer">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+          Copyright &#169; www.SumanPortfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Video Editor','Web Designer'],
+          typeSpeed: 50,
+        });
+        setTimeout(5000);
+      </script>
+
+
+      <!-- <script>
+        function changeInterface() {
+            // Get the body element
+            var body = document.body;
+    
+            // Toggle the class to change the interface
+            body.classList.toggle('changed-interface');
+        }
+    </script>
+     -->
+
+
+
+     <!-- <script>
+        var colors = ['#3498db', '#2ecc71', '#e74c3c', '#f39c12']; // Array of colors
+        var colorIndex = 0; // Index to track the current color
+        var intervalId; // Variable to store the interval ID
+    
+        function startColorChange() {
+            // Start changing colors every second
+            intervalId = setInterval(changeColor, 1000);
+        }
+    
+        function changeColor() {
+            // Get the body element
+            var body = document.body;
+    
+            // Change the background color
+            body.style.backgroundColor = colors[colorIndex];
+    
+            // Increment the colorIndex
+            colorIndex = (colorIndex + 1) % colors.length;
+        }
+    
+        function stopColorChange() {
+            // Stop changing colors
+            clearInterval(intervalId);
+        }
+    </script> -->
+</body>
+</html>
